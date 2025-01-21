@@ -1,0 +1,188 @@
+/* General body and layout settings */
+body {
+    font-family: 'Orbitron', 'Roboto', sans-serif;
+    background: radial-gradient(circle, #121212 60%, #000000);
+    color: #e6e6e6;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px 20px;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+/* Fixed score and lives display */
+#score {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    background: rgba(0, 0, 0, 0.8); /* Transparent background */
+    border: 2px solid #00ffff; /* Glow effect */
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    z-index: 1000;
+}
+
+/* Individual score and lives fields */
+#score p {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: #e6e6e6;
+    text-shadow: 0 0 5px #00ffff, 0 0 10px rgba(0, 255, 255, 0.7);
+    white-space: nowrap; /* Prevent the text from wrapping */
+}
+
+/* Values within the fields */
+#score span {
+    font-weight: bold;
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff, 0 0 15px rgba(255, 0, 255, 0.7);
+}
+
+
+/* Overlay to block clicks */
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    z-index: 999;
+    display: none; /* Hidden by default */
+}
+
+
+/* Game Over modal */
+#game-over {
+    font-size: 2rem;
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff, 0 0 20px rgba(0, 255, 255, 0.5);
+    background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+    border: 2px solid #ff00ff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #ff00ff, 0 0 40px rgba(255, 0, 255, 0.5);
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    display: none;
+}
+/* Try Again button */
+#game-over button {
+    background-color: #00ffff;
+    color: #0d0d0d;
+    font-weight: 700;
+    font-family: Orbitron;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 0 5px #00ffff, 0 0 15px rgba(0, 208, 255, 0.5)
+}
+
+#game-over button:hover {
+    background-color: #00ffff;
+    transform: scale(1.1);
+}
+
+/* Quiz container */
+.quiz-container {
+    background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+    border: 2px solid #00ffff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px rgba(0, 255, 255, 0.3);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 20px;
+    padding: 20px;
+    animation: pulse 2s infinite alternate;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+    from {
+        box-shadow: 0 0 10px #00ffff, 0 0 20px rgba(0, 255, 255, 0.5);
+    }
+    to {
+        box-shadow: 0 0 15px #00ffff, 0 0 30px rgba(0, 255, 255, 0.7);
+    }
+}
+
+/* Question Styling */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff, 0 0 15px rgba(255, 0, 255, 0.5);
+}
+
+/* Answer options */
+p {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    padding: 15px 20px;
+    background-color: rgba(20, 20, 20, 0.9);
+    border: 1px solid #333;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    color: #e6e6e6;
+    text-shadow: 0 0 3px #00ffff;
+}
+
+p:hover {
+    background-color: rgba(30, 30, 30, 1);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #00ffff, 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+/* Correct answer */
+.correct {
+    background-color: #00ff00 !important;
+    color: black;
+    box-shadow: 0 0 15px #00ff00, 0 0 30px rgba(0, 255, 0, 0.7);
+    text-shadow: none;
+}
+
+/* Wrong answer */
+.wrong {
+    background-color: #ff0000 !important;
+    color: white;
+    box-shadow: 0 0 15px #ff0000, 0 0 30px rgba(255, 0, 0, 0.7);
+    text-shadow: none;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+        margin: 0;
+    }
+
+    .quiz-container {
+        width: 80%;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+        padding: 12px 15px;
+    }
+}

@@ -1,0 +1,173 @@
+{
+    "results": [
+      {
+        "question": "Who is the best discord fighter?",
+        "type": "multiple",
+        "correct_answer": "Baso",
+        "incorrect_answers": ["Nameless", "Znarch", "Viri"]
+      },
+      {
+        "question": "Is Gytka gay?",
+        "type": "boolean",
+        "correct_answer": "Yes",
+        "incorrect_answers": ["No"]
+      },
+      {
+        "question": "Where is Adriias from?",
+        "type": "multiple",
+        "correct_answer": "France",
+        "incorrect_answers": ["Bulgaria", "Spain", "Catalonia"]
+      },
+      {
+        "question": "Is Kysely delusional?",
+        "type": "boolean",
+        "correct_answer": "Yes",
+        "incorrect_answers": ["No"]
+      },
+      {
+        "question": "Which of these countries are a PTO of Bulgaria?",
+        "type": "multiple",
+        "correct_answer": "China",
+        "incorrect_answers": ["Lithuania", "Russia", "North Macedonia"]
+      },
+      {
+        "question": "Who is the most racist?",
+        "type": "multiple",
+        "correct_answer": "Nameless",
+        "incorrect_answers": ["Baso", "Murkoff", "Jamal"]
+      },
+      {
+        "question": "Which country has the most damage in the game?",
+        "type": "multiple",
+        "correct_answer": "USA",
+        "incorrect_answers": ["Slovenia", "Bulgaria", "Lithuania"]
+      },
+      {
+        "question": "Country with the most active citizens is:",
+        "type": "multiple",
+        "correct_answer": "USA",
+        "incorrect_answers": ["Bulgaria", "Slovenia", "Germany"]
+      },
+      {
+        "question": "Which player has the most damage overall?",
+        "type": "multiple",
+        "correct_answer": "Calheta",
+        "incorrect_answers": ["Boikov", "Zero", "Puolejas"]
+      },
+      {
+        "question": "Who has the most XP points",
+        "type": "multiple",
+        "correct_answer": "Boikov",
+        "incorrect_answers": ["Calheta", "Velev", "Salami"]
+      },
+      {
+        "question": "Who holds the title 'Best Set'?",
+        "type": "multiple",
+        "correct_answer": "Calheta",
+        "incorrect_answers": ["ExceptionalS", "Cimi", "Puolejas"]
+      },
+      {
+        "question": "Which country is known for having the most multies?",
+        "type": "multiple",
+        "correct_answer": "USA",
+        "incorrect_answers": ["Iran", "Turkey", "Brazil"]
+      },
+      {
+        "question": "Best MU in the game is:",
+        "type": "multiple",
+        "correct_answer": "The Steel Talons",
+        "incorrect_answers": ["ORENDA", "National army of Puolejas", "VETERANS"]
+      },
+      {
+        "question": "Who is the best at crying? and drama queen",
+        "type": "multiple",
+        "correct_answer": "Kysely",
+        "incorrect_answers": ["Petros", "Harreki", "Gytka"]
+      },
+      {
+        "question": "Most famous cheater is:",
+        "type": "multiple",
+        "correct_answer": "Byebatu",
+        "incorrect_answers": ["Wolfstark (esim og scripter)", "youssef", "Gytka"]
+      },
+      {
+        "question": "Worst moderator",
+        "type": "multiple",
+        "correct_answer": "Mevek",
+        "incorrect_answers": ["Cimi", "Squibeel", "Emixy"]
+      },
+      {
+        "question": "Most subbed newspaper is:",
+        "type": "multiple",
+        "correct_answer": "Tunidea (fr)",
+        "incorrect_answers": ["The Washington Post (us)", "Washington Owner Newspaper (lt)", "God`s Notebook (sa)"]
+      },
+      {
+        "question": "Who is the worst femboy?",
+        "type": "multiple",
+        "correct_answer": "Lutzie",
+        "incorrect_answers": ["Pixel"]
+      },
+      {
+        "question": "How many multies does Lithuania have?",
+        "type": "multiple",
+        "correct_answer": "100+",
+        "incorrect_answers": ["0", "25", "50"]
+      },
+      {
+        "question": "How many scripts does Wolfstark have?",
+        "type": "multiple",
+        "correct_answer": "Don't ask",
+        "incorrect_answers": ["0", "2", "5"]
+      },
+      {
+        "question": "How long until OP leaves the game?",
+        "type": "multiple",
+        "correct_answer": "Already happened",
+        "incorrect_answers": ["1 week", "1 month", "1 year"]
+      },
+      {
+        "question": "Will Georgia stay free?",
+        "type": "boolean",
+        "correct_answer": "No",
+        "incorrect_answers": ["Yes"]
+      },
+      {
+        "question": "When will the next patch be released?",
+        "type": "multiple",
+        "correct_answer": "Before GTA 6",
+        "incorrect_answers": ["Next month", "Next week", "Next year"]
+      },
+      {
+        "question": "Is ASTRA a puppet of USA?",
+        "type": "boolean",
+        "correct_answer": "Yes",
+        "incorrect_answers": ["No"]
+      },
+      {
+        "question": "Biggest account booster and protected by admin is:",
+        "type": "multiple",
+        "correct_answer": "Calheta",
+        "incorrect_answers": ["Kysely", "Gytka", "Petros"]
+      },
+      {
+        "question": "Favorite love couple is:",
+        "type": "multiple",
+        "correct_answer": "All of them",
+        "incorrect_answers": ["Harreki and Gytka", "Adriias and Wolfstark", "Baso and Kysely"]
+      },
+      {
+        "question": "Best game OAT",
+        "type": "multiple",
+        "correct_answer": "Eclesiar",
+        "incorrect_answers": ["HOI4", "EU4", "CK3"]
+      },
+      {
+        "question": "#MevekOut",
+        "type": "boolean",
+        "correct_answer": "Yes",
+        "incorrect_answers": ["No"]
+      }
+    ]
+  }
+  
