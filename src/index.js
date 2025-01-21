@@ -105,7 +105,7 @@ function displayQuestions(data) {
     }
 }
 
-fetch("src/data/questions.json")
+fetch("data/questions.json")
     .then(function (response) {
         return response.json();
     })
